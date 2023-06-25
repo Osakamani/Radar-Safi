@@ -1,0 +1,15 @@
+Algorithm-flipping Technology (AFT) Framework Code Development
+Selected Languages: HTML, Javascript
+Requirements: 
+
+Encoding Cultural Algorithms
+
+Cultural algorithms are processed at client terminal. Algorithm development data is obtained from data contained in textbooks, personal experience of development teams, self-led field interviews and from respective radio and television programs, which send journalists to probe cultures.
+
+<h2>Cultural Probes</h2>
+
+Directors of radio and television programs to have suitable forms provided for them or have fields included in already existing ones with suitable correspondence. The requirement shall be that they fill these forms before and after recording said programs in respective areas. Structured information received from field-savvy journalists to be verified by consensus and updated for accuracy and changes over time.
+
+Motivation for Journalists
+
+Development Budget

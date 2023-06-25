@@ -1,0 +1,112 @@
+Glory to God
+
+Introducing Radar Safi
+
+Radar Safi is a smart-app. To be launched in Google Play and other stores after Alpha and Beta testing. The app was initially dubbed "Jua Pahali Uko." The foundation of the app was created under dynamic virtual review by over 60 members of staff and student bodies in jkuatcorp.slack.com
+
+Current Stage: Database Design;
+
+Previous Stages: Identification of problem, brainstorming, research, community outreach, boot-strapped exploration, system design, documentation;
+Future Stages: Funding, coding, data entry, implementation, testing and additional system and orgware documentation e.g. artisan resumes;
+
+System Description: Real Estate Service with Community Social Responsibility (CSR) and support for humanity;
+By-products: Television Programs - "Chindoche chia Gusii" - a cultural outreach program yet to be launched, Springs and Ridges of Africa - an expansion of 'Chindoche chia Gusii' into the rest of the African continent, "Chichiiro chia Gusii" - grows to Routes and Markets of Africa, mineral maps, cultural maps, critical information banks - CIB units, artificial intelligence and conflict resolution APIs among others;
+
+Nature of policy engine: Disaster prevention, User support;
+
+Summary: Radar Safi is an application engine through which systems can gain access to essential real-world information. The framework makes use of dynamic databases, APIs, artificial intelligence, computer networks, smart-phones and sensor systems to acquire and disseminate critical knowledge to users. Development requirements include the following:
+
+Part 1: System Requirements
+
+1) A database of contributors (data collection and entry agents) supported with automated quantification of individual and collective contributions as factors towards returns via success of projects in disaster prevention, food security, individual wellness, service provision and real-estate with software development
+2) Database of craftsmen and artisans, professionals and relevant policy development officers available in localities with respective skillsets and brief resumes
+3) Database of accessible springs, resources, communities living there and respective mineral contents of water
+4) Databases of essential service providers including domestic products and services
+5) GPS mapping capability
+6) A database of missions that updates itself according to need vs available capabilities
+7) Application Programming Interface (API) and User-Friendly interfaces
+8) Active geological fault progression tracking system with active database and messaging subsystem
+9) Recommendation presenter and selected solution support system
+10) Active recruitter with suitable display and interaction consoles
+11) User age, skillset and situation - based need determination system
+12) Mission reconciler/ valid strategic-approach tallying and qualification system
+
+Policy Formulation Criteria
+
+a) The Global Public Service Policy that shall run Radar Safi engine must at all times be forged from pillars of outstanding heaven-oriented human cultural and religious wisdom.
+b) Availing dynamic real-life globally positioning (GPS) data to users implies that data-collectors must be recruitted and equipped sufficiently to supply valid form-data as shall be required from time to time
+c) The system to utilize consesus in data collection to ensure world-class accuracy
+d) Suppliers of required information to win prizes craftily engineered to lure, recruit and sustain motivated manpower
+e) System to support development and maintenance of sustainable geophysical habitats and new niches for mankind and other beneficial life-forms. (Clearly mosquitoes are going to have a hard time securing a spot.)
+
+Database Design
+
+Our databases begins with forms, which facilitate structured data collection. Forms are made up of fields with harmonized blanks that must be logically designed so that they remain relevant in their respective areas of application.
+
+First of all we begin with contracts. Our first table comprises of contributors including a board of governors that formulates and reviews policies, contributions and shared properties because people are attached to wealth. "Aase enibo yao ere nao enkoro yao ekare." ~ Ekegusii.
+
+Form Design
+
+Radar Safi requires to know where prospective members live and where they can move around safely. This means that the forms must have provisions for current home address and previous home, school and work addresses as well as a coding system of regions to be checked off according to how a prospecting recruit is willing to move around collecting geographical and social data.
+
+Selection and Recruitment
+
+Selection requires criteria. Recruitment utilizes a form with provisions for registering and signing after agreeing to a proposal that must be drafted first. When the membership form is signed by members it becomes a contract. Extra copies of contracts are provided for each new member that signs in.
+
+Contract
+
+Recruitment is on contract basis. Radar Safi needs people who have agreed to work together towards achieving its success. They can be in various levels and the policies for launching are centred around the Character of Jesus contained in The Bible-books of Matthew, Mark, Luke and John.
+
+In Stage 1: Radar Safi needs people to do
+
+a) data collection - outgoing, sociable, skilled in communication, driving/ riding, background in geography and African Traditional Cultural knowledge are added advantages. Teams of two are recommended.
+b) data entry and verification - attention to detail, keyboarding skills and team spirit
+c) system development - background in Information Communication Technology, computer skills, coding skills, database development skills, web development skills
+
+These people must be identified, vetted and committed.
+
+Joining Radar Safi Team implies that a member acquires duties; one of which is a requirement to attend meetings. Active members are entitled to Radar Safi's incentives and rewards.
+
+Incentive and Reward System
+
+a) Prizes and other awards
+
+As motivators towards self-led initiative to provide information, strategic prizes to be identified depending on regions and specific requirements. Personal desires can be figured out from tactically prepared forms. Participants can be rewarded in ways that facilitate
+
+b) Welfare
+
+Once data-handles have been established, field officers will be taken care of so that human shortcomings do not come in the way of system efficiency and performance. Checking on the officers on a regular basis and other social activities to be organized.
+
+c) Allowances
+
+Field officers should never have to worry about where to get transportation to respective data collection posts. This requires that respective costs and projected inflation be determined before hand. Where data agents need to stay overnight, accomodation and meal charges to be included in allowances. Radar Safi will always be aware of agent location and condition. If there are any medical emergencies, team members should always be provisioned to tackle the situation.
+
+d) Remuneration
+
+When everything is running smoothly, data agents to receive payment for work done according to rates agreed upon in consensus.
+
+Part 2: Funding
+
+Given that Radar Safi is going to be a very useful application for many people and it is going to add value to Android phones, it is expected that Google will sponsor the project. Other organizations involved in environmental protection activities like Microsoft, other NGOs and government agencies are also expected as sponsors.
+
+Part 3: System Specifications
+
+Being an engine, Radar Safi is going to run on a data-synchronization based subsystem linked to an AI subsystem. Depending on a user's respective GPS, the system is going to avail data based on individual and collective needs depending on dynamic information and formulae that actively feeds into respective databases from respective sources. Normalized databases can be hosted on distributed centralized banks that are guarded by Exception Awareness (EA technology) updated by consensus and other verification methodologies. Teams to ensure that agents are well motivated so that the banks are continuously updated like in a financial block-chain system. From the data obtained, the team shall develop algorithms for geophysical computations and supply information to mandated mitigation authorities e.g. The Ministry of Environment in Kenya. The Artificial Intelligece (AI) sub-engine of Radar-Safi to be powered by AI-Jesus under development for Mount Moses Observatory (see https://github.com/Mount-Moses-Observatory).
+
+Part 4: User Experience
+
+Apart from provisioning subscribed applications with location-aware data-sets via API, Radar Safi shall have a client application. The app shall utilize intrinsic AI capabilities to provision the user with alerts to help guide on where to go, what to do and what to say within the limits of love. The system shall also help the user to understand what not to do depending on where they are. For example not to wear scanty clothing in regions where rights can be violated by communities or other crowds on the ground.
+
+Part 5: Team Challenges and Recommendations
+
+Acquiring a team that is dedicated on the development of this project and connecting with sponsors are some of the major challenges currently. A team of three will suffice for the Alpha version to be availed within six months - someone with reliable connections and sponsors, one with system development skills and one with skills in public relations. Coding and database skills, driving skills, riding skills and knowledge of Geography, Geophysics and Geographical Information Systems (GIS) can be a basic requirement for all team members. Finance skills and knowledge of local cultures to imply added advantage.
+
+Part 6: Proposals
+
+a) To JKUAT
+
+Various proposals shall be designed and sent to various organizations because the application spans many industries from educational support all the way to mineral research - especially because data collection involves physically accessing all the regions that are inhabited by humans within the continent of Africa. Artisans in their respective field diversities to have their resumes made for them from narration and published on suitable sites. Note: Disaster prevention goes all the way to preventing environmental degradation - a problem which leads to faulting as can be illustrated, whereas untamed faulting can be shown to be leading to volcanic eruptions and other disasters; problems that should never come anywhere near humanity when our work is done well. If we can arrive at an arrangement, students can work as data agents and virtual coding interns. It helps that students come from everywhere and can be accessed, supported and coordinated structurally from central locations i.e colleges and other educational and character development institutions even as they gain critical skills in life.
+
+b) To current and prospective sponsors
+
+The team at Radar Safi much appreciates your support. We hereby warmly extend this invitation to active development of a new kind of rooted intelligence dubbed data-source intelligence (DSI). It abstractly involves acquiring data dynamically as in a feedback processing and tuning system to help engines and users stay abreast with critical changes in environments and communities so that data values are allowed to facilitate the generation of targetted recommendations through inbuilt algorithmically aware exception handlers (AAEH processors) as well as accepted normal event processors.

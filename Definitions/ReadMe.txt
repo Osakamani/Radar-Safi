@@ -1,0 +1,1 @@
+This section requires javascript so that hyperlinks from definition pages can redirect exclusively back to specific pages and sections from which definitions are probed. The url will be changing assigned upon clicking provided links.
