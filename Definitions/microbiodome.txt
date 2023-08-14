@@ -1,0 +1,3 @@
+A microbiodome is defined by various attributes one of which can be among others a GPS powered coordinate system. Physical characteristic of microbiodomes also include center coordinates, associated radius and temperature ranges because creatures adapt and evolve differently depending on locality.
+
+Logically, a microbiodome is defined by the culture of the creatures occupying its lands and waters whereas biologically it is defined by respective ecological biomasses and associated foodchains.
