@@ -1,0 +1,17 @@
+<!>
+<html>
+  <head><title>Application-Lance</title>
+  </head>
+  <body>
+  <form action = 'mailto:friendsofhope@hopefm.com'>
+  <h1> Glory to God </h1>
+    <h3> REF: CONSTRUCTION OF INTERNATIONAL EARTH STATION FOR SPACE EXPLORATION </h3>
+      <h4> Justification </h4>
+        <p> <em> Motto: Studying and Quantifying Earth's Structural Integrity </em>
+        <p> <em> Mission: Mapping Cultural Geosovereignty as Expressed in Diversity </em>
+        <p> <em> Current Stage: </em> Exception Handling Technique.
+        <p> First of all the program must work and keep working despite challenges so the exception handling engine must be designed such that it is built to expect errors. The errors are handled before hand as errors - contained, isolated and developed for constructive use. Meanwhile the main program flow is allowed to continue in a different thread - one elected from among possibilities - quite clearly one with lots of love and forgiveness; because sometimes we love what we shouldn't.
+        <p> The goal is to create online simulations. Whereas most of the simulations are currently in text and mathematical logic, it can be expected that future models can include real connections with real spiritual manifestations and working together towards achievement of the <em>ideal state</em> commonly referred to as <strong> Heaven </strong>.
+  </form>
+  </body>
+</html>
