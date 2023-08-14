@@ -1,0 +1,10 @@
+Place0: Respective Farms specified according to GPS and products;
+Place1: Market Place specified according to GPS and particular product / product ranges - For example cattle markets for orgware farmers who practise organic (chemical free) cattle farming. Nature: Specifically demarcated areas - currently ideal with one for each ward. The biggest market in Gusii Counties is Daraja Mbili whereas the biggest cattle market in Nandi County is the one at Chepterit and so on;
+
+Culture how sales are carried out, conflicts usually arise where cultural stipulations have been breached.
+
+Time0: Planting Season;
+Time1: Festive Seasons;
+Time2: Respective Market Days;
+Time3: School Opening Season
+Time4: 

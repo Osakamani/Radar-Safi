@@ -1,0 +1,25 @@
+<html>
+  <head><title>TCNS System Design</title>
+  </head>
+  <body>
+    <h1> Glory to God </h1>
+    <h2> Traditional-Cultural-Name Synthesis (TCNS) System [Design-Mode] </h2>
+
+      <p> Involves a <a href="">form-inquiry system</a> where members of the orgware community supply traditional cultural names alongside respective cultures within the context of Africa. Those who claim to have no traditional cultural affiliation can use Christian, English, French, Purtuguese, Muslim or Hindu names depending on influence because the system will eventually grow to include all global cultures.
+
+    <h2> Form Design
+
+      <h3> Rural Cultures </h3>
+
+        <p> What is your cultural name? The one that has stuck to you the most <input type="text">
+How do you present yourself within your traditional culture to the rest of East Africa e.g. Omosamaro - Gusiiland represents someone from Bosamaro culture and kinship within Kisii and Nyamira counties <input type = "text">
+
+      <h3> Urban Cultures </h3>
+
+        <p> Urban Slang Subculture e.g. Shembeteng, Sheng, Barbie, Baddie: <input type="text">
+        <p> Religion: <input type="text">
+
+  </body>
+</html>
+
+ 

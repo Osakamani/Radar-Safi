@@ -1,0 +1,20 @@
+<html>
+  <head><title>Joining in</title>
+  </head>
+  <body>
+    <combo>
+      <li> Development Student
+      <li> Studet Programmer
+      <li> Programming Intern
+      <li> Field Agent
+      <li> Programmer
+      <li> Geophysics Intern
+      <li> Mining Intern
+      <li> Geophysics Expert
+      <li> Mining Expert
+      <li> Finance Expert
+      <li> Sponsor
+      <li> Guest
+    </combo>
+  </body>
+</html>

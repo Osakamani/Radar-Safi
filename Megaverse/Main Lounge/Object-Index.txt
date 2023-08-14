@@ -1,0 +1,33 @@
+>Organic Farmer<
+
+<! Works on food production as well as basic functions and hobbies. Solution-oriented variables include rate of production of critical products, required rate of production and challenges encountered
+
+<! certain number of fields with data, some normal for all humans, some exclusive to Organic Farmer, some exclusive to the individual or family, some exclusive to Organic Farmer's environment. Selection depends on data variables required by system.
+
+>Development Student<
+
+<! essential areas of development include critical Native Foods and Medicines including acquired bakery and juicery, indigenous skills, therapies and transportation networks. The system employs a Diversity-Conscious Economic-Model in development.
+
+<! provides the required buffer for future development... solution-oriented variables include safety, provision and rate of acquisition of essential knowledge according to availability and essential targets
+
+<! field types are same as organic farmer because we are all human though fields vary at some point, ours now is to determine trends and levels so that respective cut-offs can be determined and factored in
+
+Select from below a maximum of 3 of your best skills <select></select>
+
+>Student Programmer<
+
+
+
+>Programming Internship Student<
+>Field Agent<
+>Programmer<
+>Geophysics Internship Student<
+>Mining Internship Student<
+>Geophysics Expert<
+>Mining Expert<
+>Finance Expert<
+>Artisan (Jua-Kali or Informal-Sector Worker)<
+>University Liaison Officer<
+>Transporter<
+>Sponsor<
+>Guest<

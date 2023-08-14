@@ -1,0 +1,1 @@
+var loginfo = "<html><head><title>Dummy Login Database</title></head> <body><table name = 'users'><tr name = 'record'><td name = 'name'>Admin</td><td name = 'pwd'>Admin</td></tr><tr name = 'record'></tr><tr name = 'record'></tr></table></body></html>";

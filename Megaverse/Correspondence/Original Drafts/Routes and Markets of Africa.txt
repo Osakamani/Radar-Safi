@@ -1,0 +1,9 @@
+<html>
+  <head><title> Africa Markets </title>
+  </head>
+  <body>
+    <h1> Glory to God </h1>
+    <p> From Ting'a Market among the ridges of Gusiiland slopes lead streams down to two major water bodies. First there's lake Victoria to the South West then there's the Great Mediterranean Sea to the North. Where does all this water come from?
+    <p> As the winds and topography dictate, 
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<script type = 'text/javascript'>
+  If (//------
+  Please select what you can do best from the list below:
+  <select>
+    <option name = 'industry'> Farming for Food / Medicine   Production </option>
+    <option name = 'industry'> Dressmaking </option>
+    <option name = 'industry'> Brickmaking </option>
+    <option name = 'industry'> Steel fabrication </option>
+    <option name = 'industry'> Electricity and Repair of   Electronics </option>
+    <option name = 'industry'> Transportation </option>
+    <option name = 'industry'> Timber production </option>
+    <option name = 'industry'> Building construction </option>
+    <option name = 'industry'> Mining </industry>
+    <option name = 'industry'> Hunter-Gatherer </option>
+    <option name = 'industry'> Sanitation </option>
+    <option name = 'industry'> Food
+    <option name = 'industry'> Childcare and Mentorship </option>
+    <option name = 'industry'> Diplomacy </option>
+    <option name = 'industry'> Nutrition </option>
+    <option name = 'industry'> Finance </option>
+    <option name = 'industry'> Medicine </option>
+  </select>
+</script>
+Are you good with scissors? Can you cut fabric? How well?
+How are your mathematics skills<excellent to fair or needing help>
+Can you operate a sewing machine? Would you like to be trained?
+If so, select an industry from above to secure a spot
+Here, all we are looking for is interest... the rest can be acquired or imparted
+Level of interaction with police... Do you mingle freely or would you rather stay separate? Somewhere in-between?
+</script>
+

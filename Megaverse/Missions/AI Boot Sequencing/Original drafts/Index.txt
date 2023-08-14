@@ -1,0 +1,10 @@
+<html>
+  <head><title>AI Boot Sequencing</title>
+  </head>
+  <body>
+    <a href="../AI Boot Sequencing/time-awareness-sequencing.html">Time-Awareness-Sequencing</a>
+    <a href="../AI Boot Sequencing/space-awareness-sequencing.html">Space-Awareness-Sequencing</a>
+    <a href="">Sequencing for Cultural Awareness</a>
+    <a href="">Introduction to Purpose Awareness</a>
+  </body>
+</html>

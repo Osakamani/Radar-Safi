@@ -1,0 +1,33 @@
+<html>
+  <head><title>Applied Physical Geometry</h2>
+  </head>
+  <body>
+    <h1> Glory to God </h1>
+      <h2> Essential Variable Definitions</h2>
+        <h3> Gravity </h3>
+        <h3> Space </h3>
+        <h3> Object </h3>
+        <h3> Mass </h3>
+        <h3> Inertia </h3>
+     <h2> Transition
+        <p> In Creation, as we often find, things change and observers find that what was isn't anymore. Environmental changes e.g. plant-growth usually happen in relatively slow rates in relation to average human detection capability. seamlessly as if it they are continous processes with elements that cannot be counted... are they perhaps quantifiably discrete frames of moments?
+        <p> Depending on the detection rates of observer's sensor-networks and on the rates of transition of unique moments, all moments can be captured or some moments can be missed. Some moments can also be captured to be processed at future times.
+      <h2> Definitions of Physical Boundaries </h2>
+        <h3> Geographical Borders </h3>
+        <h3> Skins and Crusts </h3>
+        <h3> Silhouettes </h3>
+      <h2> Intrinsic Object Properties </h2>
+        <h3> Density </h3>
+        <h3> Volume </h3>
+        <h3> Intelligent Motion <h3>
+      <h2> Object Mobility Definitions
+        <h3> Motion </h3>
+        <h3> Collission </h3>
+        <h3> Perception </h3>
+        <h3> Evasive Action </h3>
+          <p> Features notes on Diversity of Degrees of Freedom
+      <h2> Object Coordination and Team Formation </h2>
+        <h3> Swarm Intelligence </h3>
+  </body>
+</html>
+

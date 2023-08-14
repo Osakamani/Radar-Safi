@@ -1,0 +1,87 @@
+    <script type = "text/javascript">
+      var session = "inactive";
+      var userType;
+      var email;
+      function greet_farmer() {
+        userType = document.getElementById("farmer").value;
+        document.write("<h1> Only God is Perfect </h1><h2> Orgware Registration </h2><hr><a href = '../Reception/join_as.html'>Back to Reception</a><h3> Before joining please answer the following questions:</h3><p> Hello, how is the farm doing?<select><option>very good</option><option>okay</option><option>not good</option></select><p>What are you missing?<input type = 'text'><br><tab><em>e.g. farm-hand or wheelbarrow</em><p>If you get support, what can you supply? <input type='text'><br><tab><em>e.g. green maize, beans and cassava</em><hr><p><input type = 'button' value = 'Respond'>");
+      }
+      function greet_DevStud() {
+        userType = document.getElementById("DevStud").value;
+      }
+      function greet_StudPrg() {
+        userType = document.getElementById("StudPrg").value;
+      }
+      function greet_ProgIntrn() {
+        userType = document.getElementById("ProgIntrn").value;
+      }
+      function greet_FldAgnt() {
+        userType = document.getElementById("FldAgnt").value;
+      }
+      function greet_Prg() {
+        userType = document.getElementById("Prg").value;
+      }
+      function greet_GeophycIntrn() {
+        userType = document.getElementById("GeophycIntrn").value;
+      }
+      function greet_MngIntrn() {
+        userType = document.getElementById("MngIntrn").value;
+      }
+      function greet_GeophycExpt() {
+        userType = document.getElementById("GeophycExpt").value;
+      }
+      function greet_MngExpt() {
+        userType = document.getElementById("MngExpt").value;
+      }
+      function greet_FnceExpt() {
+        userType = document.getElementById("FnceExpt").value;
+      }
+      function greet_Artisan() {
+        userType = document.getElementById("Artisan").value;
+      }
+      function greet_Campus() {
+        userType = document.getElementById("Campus").value;
+      }
+      function greet_transp() {
+        userType = document.getElementById("transp").value;
+      }
+      function greet_Sponsor() {
+        userType = document.getElementById("Sponsor").value;
+      }
+
+        function registration() {//---------------------------------------
+        //feeds into userType database and assigns value to email
+        document.write("
+<h1> Glory to God </h1>
+  <form action = '../Reception/cgi-bin/test.cgi' name='register'>
+    <h2>Registration</h2>
+    <hr>
+    <a href='../../Index.html'>Home</a><p><em>Automatically Generated User Code: </em><strong>323E333N</strong>
+    <p>Email address: <input name = 'email' type='text''>
+    <p> Password: <input name = 'password' type='password'>
+    <p><input name = 'submit' type='submit' value='Create User' onclick='return validation();'>
+  </form>");
+  //output is a virtual object with a logical image for HTML display and equivalent logical image for JSON
+  alert ("Before proceeding kindly make sure you have somewhere you can write");
+  //Generate and display suitable code here depending on detected GPS coordinates of first-contact to be the user's code to be backed-up via follow-up email and server data
+        }//------------------------------------------------------------------
+
+      function validation() {
+        if (document.register.email == "") {
+          alert("Please supply an email address");
+        }
+      }
+
+      function admission() {
+
+//============================================================================================
+//Function implies that user has been confirmed and is now given rights to digital assets as can be coordinated by server.
+//Requires provision of an interactive console commited to shared user-social success.
+//In order to facilitate verification, algorithms to hash inputs and compare hashes with those queried from server database, chief among objectives is to always find cultural intersections that facilitate cultural growth of AI while undertaking various processes for service delivery.
+//whenever there are matches in projected trajectories, pages containing user-specific Radar-Safi info is delivered.
+//Note: the system is equipped enough to provide enough helpful info to everyone (with noted exceptions) and like medication, advisory info meant for someone else's is not good for you
+//============================================================================================
+
+        document.write("<h1>Glory to God</h1><h2>Admission Box</h2><hr><a href='../../Index.html'>Home</a><hr><form method = 'post' action = 'mailto:' + email>User Code: <input name='usercode' type='text'><br>Password: <input name = 'password' type = 'password'><br><input name='enter' type='submit' value='Enter'></form>");
+      }
+    </script>

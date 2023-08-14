@@ -1,0 +1,24 @@
+//variables
+
+var console;
+var display;
+var everything = console + display;
+var framework;
+var type;
+
+//init
+
+defaultUrl = "../Index.html";
+alternateUrl = "";
+var homeUrl = defaultUrl;
+console = "<input>";
+display = "<h2>Glory to God</h2><hr>" + + console + homeUrl;
+
+console.type = "text";
+
+
+framework = "<!DOCTYPE html><html><head><title></title></head><body>" + display + "<!-- Unlike most modern systems, Radar Safi's orgware registration system shall be such that the user realizes interaction. To be achieved via use of intelligent forms</body></html>";
+
+//CODING OBJECTIVE: PURPOSING AND ALIGNMENT OF INDIVIDUAL AND COLLECTIVE INTER-CULTURAL-BIODOME-POWERED INDUSTRIES AND ASSOCIATED PRODUCTS
+
+document.write(framework);

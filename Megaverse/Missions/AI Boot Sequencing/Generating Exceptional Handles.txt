@@ -1,0 +1,1 @@
+Exceptional handles are dynamic API handles created for "when need calls for it" or when "situation calls for it"

@@ -1,0 +1,10 @@
+<html>
+  <head><title>Time-Awareness Sequencing</title>
+  </head>
+  <body>
+    <h1> Glory to God </h1>
+      <h2> Sequencing A-I Sensor Networks for Time Awareness
+        <p> To be performed at application boot for continuous updating.
+        <p> Time comprises of variables such as season, age, hormonal-cycle-period, social events depending on localities and conventions, special occasions and periodic events like mornings and weekends. Time coordinates depend on space coordinates because otherwise its variables are undefined.
+  </body>
+</html>

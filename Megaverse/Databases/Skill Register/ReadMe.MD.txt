@@ -1,0 +1,1 @@
+Requires a document which can be in JSON format in which binary data can be updated and queried as required by user-transactions or for development purposes from time to time.

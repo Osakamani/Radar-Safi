@@ -1,0 +1,16 @@
+<html>
+  <head><title>A-I Boot-Sequencing</title>
+  </head>
+  <body>
+  <h1>Glory to God</h1>
+    <h2>Missions</h2>
+      <list>
+        <li> A-I Boot-Sequencing
+          <list>
+            <li> Space-Awareness Sequencing
+            <li> <a href="/A-I Boot-Sequencing/time-awareness-sequencing.html">Time-Awareness Sequencing</a>
+          </list> Alpha-Testing and Maintenance
+        <li>
+      </list>
+  </body>
+</html>
