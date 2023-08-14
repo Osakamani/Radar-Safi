@@ -1,0 +1,30 @@
+nature: logical object
+function() {//--links realworld user-populated social-media hash-tag trends;
+//-- example: "the " + #blasphemy + " of " + #costOfLiving;
+"the " + #relationshipBetween(#kebeNkiaMonyene && "the devil takes care " + of + " his own"){
+
+
+
+
+
+};}
+
+object #relationshipBetween(){
+"nature": "virtual logical object"
+//--virtualization in the logical dimension
+//--see #spiritualWarfare in the #logicalDimension
+//--Example: e.g. in Logical Wars vs Physical Bloody Wars
+
+var objectInverterdness = {"orientation": ["easter", "wester", "norther", "souther"];
+//--catchException "central" e.g. 'Kikuyu'}
+//--"as a nurse you should never panic"
+//--idea is to define "easter" and then float "wester" as its inversion
+//--to east implies to rise with hope
+//--to west implies to go down and take others along with you
+//-- whereas goodness is maximized when you "east", "westing" provides the necessary pessimism as required
+//-- goodness exists in both configurations
+//-- serious wickedness thrives in the middle-east
+//-- some serious goodness can be found in the middle-west? Do we have such thing as a "middle-west"?
+}   
+
+narrate("The Great Joke"){//--returns the concept of Creation in a global perspective;}

@@ -1,0 +1,11 @@
+Example
+Where to find Bone Setter cacti
+first-time: check with biologists
+second-time: via installed sensors and subsequent associated data updates/ consolidations
+
+Example
+What is wrong with me?
+first-time: check with psychologist - pass through internal cummulative AI;
+first-time: focus on info from selected-biologist-linked data
+second-time: update psychologist;
+third-time: create psychologist_app.focusOnJesus;

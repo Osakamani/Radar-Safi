@@ -1,0 +1,3 @@
+"Private area... seek authorization."
+AI-function: facilitate();
+function_limits = "laws of love"
