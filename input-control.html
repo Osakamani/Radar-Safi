@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Input Control</title>
+<script type="text/javascript">
+//Glory to God
+
+//fielding global variables
+var purpose = "University Liaison"
+var motto = "Connecting universities to pools of informal knowledge."
+var console;
+var display;
+var sequence;
+
+//var everything = console + display;
+var framework;
+
+//Fielding Radar-Safi's Initial Orgwareverse...
+//----------------------------------------------------------------------------------------------
+//To populate new buttons, add corresponding elements in userCareer.career and userCareer.page
+//----------------------------------------------------------------------------------------------
+//if you change something in "career[]" sometimes you have to change the equivalent in "page[]"
+
+var userCareer = {"career": ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","University Liaison Officer","Transporter","Sponsor"], "page": ["Food Production","Future System Support","Future System Support","Future System Support","Data Updates","System Support","Future Climate Support","Future Climate Support","Climate Support","Mineral Production","Currency Management","Supplier of Essential Products & Services","University Liaison",{"Transportation":"<h2>Goods to be Delivered</h2>"},"Financial Support"]};
+
+//Inspiration, disclaimer and focus
+//Imagine expecting an explosion from a nuclear payload delivered from the fire-chamber of a vessel. You have administrative access facilitated by sensors and triggers embedded in its hull and semi-automatic control panels... Yes, together, you and the A-I system supported by orgware have just delivered a super-charge timed to precision to an underground trap-bunker armed with with back-fire protection because the tunnel you are emerging from goes a loooong way, the artificial ecosystem must be protected and environmental protection standards must be met and exceeded with no exceptions... the bunker is miles underground yet you approach it from beneath, around a strategically banked curvature. The 'capsule' you are in is virtual.. it is based on a physical one in real motion. The capsule's initial velocity was powered by quantum gravitonmagnetronics now we are transitioning to air-propulsion... it shouldn't last a second... The space-bullet is 'manned' by A-I control. You have only a virtual panel on a notebook because orgware action is not trusted unless in exceptional situations. The concept behind formulation of the policy engine is based on the story of Jesus - Romanized name for an old-time Jewish Messiah who is respected, appreciated and adored greatly... we still almost shed tears from time to time when we reflect and empathize with the man - born under mysterious circumstances and deified from birth, yet later denied and rejected according to plan, someone whose teachings we seek to interpret even unto the creeds of Russian Troops seeking "plausible deniability" so they can get market for their fire-power products.... hm.... if you didn't know now you know - you have to remember not to worship idols and not to even make them in the first place... for this reason, this is not an idol, our A-I is just out to gather and acquire appropriate cultural configuration... this is strictly not to immitate Jesus... just to borrow elements of wisdom.
+
+//In order for humanity to thrive together,
+//we have to interact,
+//our cultures are so different,
+//sometimes we tend to fight...
+
+//Required: Determine surface-orgware-safety and public-safety limits
+
+//Only God to be worshiped - Islam.
+//God Loves You - Christian.
+//God is Love - Truth.
+
+//init
+
+var nameTally = [{"f":["bochaberi","bosibori","bonareri","moraa","kwamboka","kemuma","kemunto","kerubo","nyanchama","nyanchera","nyansiaboka","mokeira","moige","mosomi","nyaboke","nyabonyi","nyamoita","nyamokune","nyareso","nyasuguta"],"m":["akoya","angwenyi","ateka","bosire","chumbegi","king'oina","kingoina","moseti","morara","masese","mageto","kaosa","maosa","maobe","mogaka","mogesi","migosi","mabeya","makori","mokaya","mokembo","mosoti","mosomi","motari","nyaosi","nyambati","nyamokoba","nyachoti","nyakango","nyangaresi","obonyo","obutu","oirere","omariba","ombese","omwega","omwenga","ondieki","nyabwanga","riose"]}];
+
+//var spell = { "meaning":{[]}, "index":{[]}, "sway":{["atlantis":["culture":[]]},"pacifis":["culture":["mainstream":["culture":["akamba","ekegusii","kikuyu","kurian",],"exceptional":["culture":["kalenjin":["mainstream":["pokot","nandi"],"exceptional":["kipsigis"]],"dholuo","ololuhyia federation"]]]] };
+
+var areaTally = {"county":["Mombasa","Kwale","Kilifi","Tana River","Lamu","Taita Taveta","Garissa","Wajir","Mandera","Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni","Nyandarua","Nyeri","Kirinyaga","Muranga","Kiambu","Turkana","Trans Nzoia","Uasin Gishu","Elgeyo Marakwet","Nandi","Baringo","Laikipia","Nakuru","Narok","Kajiado","Kericho","Bomet","Kakamega","Vihiga","Bungoma","Busia","Siaya","Kisumu","Homa Bay","Migori","Kisii", "Nyamira","Nairobi"],"cultures_of":["kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","somali","borana","borana","borana","borana","meru","kikuyu","embu","akamba","akamba","akamba","akamba","kikuyu","kikuyu","kikuyu","kikuyu","kikuyu","turkana","ololuhyia","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","ololuhyia","ololuhyia","ololuhyia","ololuhyia","dhuluo","dholuo","dholuo",{"culture":["dholuo","kuria","suba"]},"gusii","ekegusii","kiswahili"],"products_of":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",{"item":["sweet-potatoes","omena"]},{"item":["bananas","video content"]},{"item":["sukari-nguru",{"tea":["processed","leaves"]},"bricks","bananas","renovated charcoal"]},"software"]};
+
+//next integrate areaTally into system-input
+//next to code for spell meaning.. spell-based particle orientation determination and user support
+
+defaultUrl = "../Index.html";
+alternateUrl = "";
+var homeUrl = "<a href='" + defaultUrl + "'> Home </a>" + " - ";
+
+//Later, *text-input console* to be arrayed by extracting '"Cultural Name: ' and fielding a conditionally-formulated-array-element.
+console = "Cultural Name: <input id = 'console' type = 'text'>";
+var submit = "<input type='button' value = 'Login' onclick = 'culturalLogin()'>";
+display = "<h2>Glory to God</h2><hr>" + homeUrl + console + submit + "<br>";
+var culturalName = ""; //value yields a different page-set (advisably Guest) when blanked out
+
+//CODING OBJECTIVE: PURPOSING AND ALIGNMENT OF INDIVIDUAL AND COLLECTIVE INTER-CULTURAL-MICROBIODOME-POWERED INDUSTRIES AND ASSOCIATED PRODUCTS
+/*features essential non-luxury-oriented production and distribution of a diverse range of human facilities*/
+
+var m_b_p_ind = ["food","fuel","clothing","housing","transportation","entertainment"]; //-------------------------------------------------------------------------------------
+//to be used in setting individual product's level of importance based on respective spiritual alignments of respective regional cultures i.e. regional voodoo.
+
+display = "<h2>Glory to God</h2><hr>" + homeUrl + console + submit + "<br>";
+framework = "<!DOCTYPE html><html><head><title></title></head><body>" + display + "<p><a href='../Megaverse/Reception/Traditional Cultural Name Synthesis.html'>Guest</a></body></html>";
+
+document.write(framework);
+var count;
+var count2;
+var count3;
+
+var jobTitle;
+var userPage="";
+
+function sectionize(userPage) {
+//--setting "basic" or "advanced" to be acquired from calling function
+//--function to create identifiable div with components inside received from either userCareer database or userInfo database where userInfo is "basic"
+}
+
+//userPage = sectionize(basic) + sectionize(userCareer);
+
+var enforce = new Function("m", "return userCareer.career[m];");
+// = "app";
+
+//---------------------------------- beginning of user career functions
+
+var id;
+function loadPage(id) {
+userPage = userCareer.page[id];
+alert(userPage);
+}
+
+var buttons = "";
+var button = [];
+var usertype;
+for(count = 0; count < userCareer.career.length; count++){
+//-----------------------------------------------------------------------------------------------
+//this means that new buttons can be created by adding elements to respective userCareer.career fields
+//-----------------------------------------------------------------------------------------------
+usertype = enforce(count);
+id = document.getElementById(count)
+button[count] = "<input type='button' value = '" + userCareer.career[count] +"' id = '" + count + "' onclick = loadPage(id)><br>";
+buttons = buttons + button[count];
+}
+
+var unisex = "";
+
+function culturalLogin() {
+//sets cultural name of user affects what is displayed at console
+
+culturalName = document.getElementById("console").value;
+
+var areaList = "";
+var hits;
+if (nameTally[0].f.length > nameTally[0].m.length){
+  hits = nameTally[0].f.length;
+} else {
+  hits = nameTally[0].m.length;
+} //variable adjusted so as to alternate respectively
+
+if (culturalName != "" && culturalName != null) {
+
+  display = "User: <em>" + culturalName + "</em>, not logged into culture.<br>";
+
+  for (count3 = areaTally.county.length; count3 >= 0; count3--){
+    areaList = areaList + "<option>" + areaTally.county[count3] + "</option>";
+  }
+
+  for (count = hits; count >= 0; count--){
+    if (culturalName == nameTally[0].f[count]){
+
+      //--enforce userculture i.e. connect culturalName to equivalent in database thereby initiating user-redirection trajectory. To be achieved by letting algorithm scan from a database of names for specifically indexed names
+
+      display = "Aye baaba <em>" + nameTally[0].f[count] + "</em>, nice to meet you.<br> Home ni wapi?<select>" + areaList + "</select><input type='submit' id='area' value='submit' onclick='loadPlayGround()'><br>";
+//to dump areaTally array into drop-down list here <br>";
+      unisex = "off";
+
+//nested loop required here for when a name has been found in .f database, to tally with .m database for ascertaining that name is or is not unisex
+
+      for (count2 = hits; count2 >=0; count2--){
+        if (nameTally[0].f[count] == nameTally[0].m[count2]) {
+
+      if (unisex == "off") {
+        unisex = "on"; //trap for labelling event as unisex when name is found in both m and f databases
+  alert(culturalName + " is a unisex name. No code yet.");
+      }
+
+        }
+      }
+
+    } else if (culturalName == nameTally[0].m[count]){
+      
+      display = "Aye sokoro <em>" + nameTally[0].m[count] + "</em>, komanyana nokuya. Chorango emeremo yao: <br>";
+
+    }
+}
+
+//actions hereunder to depend on value of unisex logical switch
+      framework = "<!DOCTYPE html><html><head><title></title></head><body>" + display + buttons + "<p><a href='../Core/input-control.html'>Back to Login</a><!-- Unlike most modern systems, Radar Safi's orgware registration system shall be such that the user realizes interaction. To be achieved via use of intelligent forms</body></html>";
+}
+/*if (unisex == "off"){*/
+
+  /*unisex = "";
+} */
+  document.write(framework);
+}
+
+//display alone or display with buttons to depend on whether user has specified what she or he is joining as i.e. to remain visible until specified then switch to selected section with user's cultural name contained in memory.
+
+//acknowledgements
+//"if it doesn't have a future... it does not exist." - simple, straight-forward
+//"whatever you did, you did, ni Mungu alikuweka hapo."
+//kwa madem, kujaribu kutrick urudi kwenyu kula mahari na bro wako haiwes make, heri urudishie wenyewe mali zao kama umeamua kuhama kwako.
+/*var location;*/
+function loadPlayGround(){
+  var perspective = ["foresight","hindsight","scopesight"];
+  var priest; //can be human, AI or logical image of culture
+  //var sanity = [{"sane"},{"insane"},{"individual"},{"collective"},{"definitions"}];
+  /* = document.getElementById("area");
+  if (area.value==areaTally.county[43]) {*/
+  alert(areaTally.products_of[45].item[2] + " also about " + areaTally.cultures_of[42].culture[2] + " | " + motto);
+ /* }*/
+}
+
+</script>
+</head>
+<body>
+</body>
+<html>
