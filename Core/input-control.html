@@ -6,26 +6,29 @@
 		//Celebrating the Life of Janes Moraa Nyaosi
 
 		//fielding global variables
-		var spiritualentity = ["love","desire","fear","duty","shame","posterity","other"];
-		var purpose = "University Liaison"
-		var motto = "Connecting universities to pools of informal knowledge."
+		var spiritualentity = ["love","desire","fear","duty","shame","prestige","posterity","other"];
+		var purpose = "University Liaison";
+		var university = ["maseno","masinde-muliro","nairobi","jomo-kenyatta","kenyatta","moi","multimedia","catholic","baraton"];
+		var motto = "Connecting universities to pools of informal knowledge.";
 		var console;
 		var display;
-		var sequence;
-		var limits = {"level":["higher","lower","pride and fall","humility","maximum","minimum"],"orientation":["for good","for no good at all","for something good"]};
+		var sequence = [];
+		var limits = {"level":["infant","rookie","higher","lower","pride and fall","humility is key","maximum","veteran","minimum","exhausted","depleted","deceased"],"orientation":["for good","for no good at all","for something good"]};
 
 		function prideandfall(){
-			var pridecycle = limits.level[3];
+			var pridecycle = limits.level[5];
 			alert(pridecycle);
 		}
 
-		var medicine = ["exponential kindness","medicinal and nutritional plants","Chinese Medicine","western medicine", "indian medicine","african medicine","corporate medicine"];
+		var medicine = {"mwanyagetinge":["loving","exponential kindness","sharing","natural medicine","Chinese Medicine","helpful information","western medicine", "indian medicine","african medicine","corporate medicine","spiritual medicine","soul cultivation","redemption of lost souls"]};
 		var framework;
 
-		var userCareer = {"career": ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","University Liaison Officer","Transporter","Sponsor"], "page": ["Food Production","Future System Support","Future System Support","Future System Support","Data Updates","System Support","Future Climate Support","Future Climate Support","Climate Support","Mineral Production","Currency Management","Supplier of Essential Products & Services","University Liaison",{"Transportation":"<h2>Goods to be Delivered</h2>"},"Financial Support"]};
+		var userCareer = {"career": ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","University Liaison Officer","Transporter","Sponsor"], "page": ["Food Production","Future Project Manager","Future Software Development Roles","Supervised Programming Roles","Data Updates","Inspired Technician","Future Climate Support","Future Climate Support","Evaluating Applied Cosmological Computations","Training and Coordinating Artisans","Currency Production and Management","Supplier of Essential Products & Services","University Liaison",{"Transportation":"<h2>Goods to be Delivered</h2>"},"Financial Support"]};
 
-		var nameTally = {"nandi":[{"f":["chebet","chebor","chelagat","chelimo","chepchirchir","chepkemboi","chepketer","cheptoo","cherobon","cherono","cherop","cherotich","chepsang"],"m":["kemboi","kibet","kibor","kipchirchir","kiplagat","kipketer","kiplimo","kipkemboi","kiprop","kiprono","chesang","kiptoo","kiptum"]}],"ekegusii":[{"f":["bochaberi","bosibori","bonareri","moraa","kwamboka","kemuma","kemunto","kerubo","nyanchama","nyanchera","nyansiaboka","mokeira","moige","mosomi","nyaboke","nyabonyi","nyakerario","nyamoita","nyamokune","nyareso","nyasuguta"],"m":["akoya","angwenyi","ateka","bosire","chumbegi","king'oina","kingoina","moseti","morara","masese","mageto","kaosa","maobe","maosa","mogaka","mogesi","migosi","mabeya","makori","mokaya","mokembo","mosoti","mosomi","motari","nyagechanga","nyaosi","nyambati","nyamokoba","nyachoti","nyakango","nyangaresi","obonyo","obutu","oirere","omariba","ombese","omwega","omwenga","ondieki","nyabwanga","riose"]}]};
+		var nameTally = {"nandi":[{"f":["chebet","chebor","chelagat","chelimo","chepchirchir","chepkemboi","chepketer","cheptoo","cherobon","cherono","cherop","cherotich","chepsang"],"m":["kemboi","kibet","kibor","kipchirchir","kiplagat","kipketer","kiplimo","kipkemboi","kiprop","kiprono","chesang","kiptoo","kiptum"]}],"dholuo":[{"f":["achieng","adhiambo","akinyi","amondi","anyango","atieno","awuor"],"m":["anyang","nyongo","ochieng","odhiambo","oduor","oloo","omondi","opiyo","onyango","otieno","othoo"]}],"ekegusii":[{"f":["bochaberi","bosibori","bonareri","moraa","kwamboka","kemuma","kemunto","kerubo","nyanchama","nyanchera","nyansiaboka","mokeira","moige","mosomi","nyaboke","nyabonyi","nyakerario","nyamoita","nyamokune","nyareso","nyasuguta"],"m":["akoya","angwenyi","ateka","bosire","chumbegi","king'oina","kingoina","mogoko","mokua","moseti","morara","masese","mageto","kaosa","maobe","maosa","mogaka","mogesi","migosi","mabeya","makori","mokaya","mokembo","mosoti","mosomi","motari","nyagechanga","nyaosi","nyambati","nyamokoba","nyachoti","nyakango","nyangaresi","obonyo","obutu","oirere","omariba","ombese","omwega","omwenga","ondieki","nyabwanga","riose"]}]};
 		var areaTally = {"county":["Mombasa","Kwale","Kilifi","Tana River","Lamu","Taita Taveta","Garissa","Wajir","Mandera","Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni","Nyandarua","Nyeri","Kirinyaga","Muranga","Kiambu","Turkana","West Pokot","Samburu","Trans Nzoia","Uasin Gishu","Elgeyo Marakwet","Nandi","Baringo","Laikipia","Nakuru","Narok","Kajiado","Kericho","Bomet","Kakamega","Vihiga","Bungoma","Busia","Siaya","Kisumu","Homa Bay","Migori","Kisii", "Nyamira","Nairobi"],"cultures_of":["kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","somali","borana","borana","borana","borana","meru","kikuyu","embu","akamba","akamba","akamba","akamba","kikuyu","kikuyu","kikuyu","kikuyu","kikuyu","turkana","ololuhyia","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","ololuhyia","ololuhyia","ololuhyia","ololuhyia","dhuluo","dholuo","dholuo",{"culture":["dholuo","kuria","suba"]},"gusii","ekegusii","kiswahili"],"products_of":["","","","","","","","","","","10","","","","","","embedodo","","waru","","","","","","","","","","","","","","","","","","","","","","","","","sweet potatoes & omena"],"item":["bananas","video content"],"item":["sukari-nguru",{"tea":["processed","leaves"]},"bricks","bananas","renovated charcoal","software"]};
+		var product = {"name":["maize","beans","potatoes","bananas","rice"],"category":["human food","human food","human food","human food","human food","animal food","clothing","medicine","service","housing","education","defense"]};
+		var source = {"maize":["kitale","kuria"],"month":["kitale maize harvest month","kuria maize harvest month"],"price":[],"beans":[]};
 
 		defaultUrl = "../Index.html";
 		alternateUrl = "";
@@ -77,13 +80,12 @@
 		}
 
 		var unisex = "";
-
+		var areaList = "";
 		function culturalLogin() {
 			//sets cultural name of user affects what is displayed at console
 
 			culturalName = document.getElementById("console").value;
 
-			var areaList = "";
 			var hits;
 			if (nameTally.ekegusii[0].f.length > nameTally.ekegusii[0].m.length){
 				hits = nameTally.ekegusii[0].f.length;
@@ -96,7 +98,7 @@
 				display = "User: <em>" + culturalName + "</em>, not logged into culture.<br>";
 
 				for (count3 = areaTally.county.length; count3 >= 0; count3--){
-				areaList = areaList + "<option>" + areaTally.county[count3] + "</option>";
+					areaList = areaList + "<option>" + areaTally.county[count3] + "</option>";
 				}
 
 				for (count = hits; count >= 0; count--){
@@ -104,7 +106,7 @@
 
 						//--enforce userculture i.e. connect culturalName to equivalent in database thereby initiating user-redirection trajectory. To be achieved by letting algorithm scan from a database of names for specifically indexed names
 
-						display = "Aye baaba <em>" + nameTally.ekegusii[0].f[count] + "</em>, nice to meet you.<br> Home ni wapi?<select id='area'>" + areaList + "</select><input type='submit' value='submit' onclick='loadPlayGround()'><br>";
+						display = "Aye baaba <em>" + nameTally.ekegusii[0].f[count] + "</em>, nice to meet you.<br> Chagua area unadai kusoma: <select id='area'>" + areaList + "</select><input type='submit' value='submit' onclick='loadPlayGround()'><br>";
 						//to dump areaTally array into drop-down list here <br>";
 						unisex = "off";
 
@@ -155,7 +157,16 @@
 					alert(areaTally.products_of[43] + " also about " + areaTally.cultures_of[42].culture[2] + " | " + motto + " | " + "assign to omena collection business");
 				}
 			}
-			prideandfall();
+			if (area.value == "Nairobi") {
+				somakanairos();
+			} else {
+				prideandfall();
+			}
+			
+		}
+		
+		function somakanairos(){
+			alert("info in this section to include matatu routes, stages, product godowns and connecting workers with work and commodities with those who need them");
 		}
 
 	</script></head><body></body>
