@@ -1,6 +1,7 @@
 //Glory to God
 //Celebrating the Life of Janes Moraa Nyaosi
 	//fielding global variables
+var framework;
 var spiritualentity = ["love","desire","fear","duty","shame","prestige","posterity","other"];
 var purpose = "University Liaison";
 var university = ["maseno","masinde-muliro","nairobi","jomo-kenyatta","kenyatta","moi","multimedia","catholic","baraton"];
@@ -17,11 +18,12 @@ function prideandfall(){
 
 var hospital = ["attitude engineering","chemical engineering","habit engineering","geographical engineering","other - to be specified"];
 var medicine = {"mwanyagetinge":["loving","exponential kindness","sharing","natural medicine","Chinese Medicine","helpful information","western medicine", "indian medicine","african medicine","corporate medicine","spiritual medicine","soul cultivation","redemption of lost souls"]};
-var framework;
 
 var userCareer = {"career": ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","University Liaison Officer","Transporter","Sponsor"], "page": ["Food Production","Future Project Manager","Future Software Development Roles","Supervised Programming Roles","Data Updates","Inspired Technician","Future Climate Support","Future Climate Support","Evaluating Applied Cosmological Computations","Training and Coordinating Artisans","Currency Production and Management","Supplier of Essential Products & Services","University Liaison",{"Transportation":"<h2>Goods to be Delivered</h2>"},"Financial Support"]};
 
-var nameTally = {"nandi":[{"f":["chebet","chebor","chelagat","chelimo","chepchirchir","chepkemboi","chepketer","cheptoo","cherobon","cherono","cherop","cherotich","chepsang","karembo","rembo"],"m":["kemboi","kibet","kibor","kipchirchir","kiplagat","kipketer","kiplimo","kipkemboi","kiprop","kiprono","chesang","kiptoo","kiptum"]}],"dholuo":[{"f":["achieng","adhiambo","akinyi","amondi","anyango","atieno","awuor"],"m":["anyang","nyongo","ochieng","odhiambo","oduor","oloo","omondi","opiyo","onyango","otieno","othoo"]}],"ekegusii":[{"f":["bochaberi","bosibori","bonareri","moraa","kwamboka","kemuma","kemunto","kerubo","mokeira","moige","mosomi","nyanchama","nyanchera","nyansiaboka","nyaboke","nyabonyi","nyakerario","nyamoita","nyamokune","nyareso","nyasuguta","osebe"],"m":["akoya","angwenyi","ateka","bosire","chumbegi","king'oina","kingoina","mogoko","mokua","moseti","morara","masese","mageto","kaosa","mabeya","maobe","maosa","mogaka","mogesi","moriasi","migosi","makori","mokaya","mokembo","mosoti","mosomi","motari","nyagechanga","nyaosi","nyambati","nyamokoba","nyachoti","nyakango","nyangaresi","obonyo","obutu","oirere","omariba","ombese","omwega","omwenga","ondieki","ontiri","osebe","nyabwanga","riose"]}]};
+var nameTally = {"nandi":[{"f":["chebet","chebor","chelagat","chelimo","chepchirchir","chepkemboi","chepketer","cheptoo","cherobon","cherono","cherop","cherotich","chepsang","karembo","rembo"],"m":["kemboi","kibet","kibor","kipchirchir","kiplagat","kipketer","kiplimo","kipkemboi","kiprop","kiprono","kipsang","kiptanui","kiptoo","kiptum"]}],"dholuo":[{"f":["achieng","adhiambo","akinyi","amondi","anyango","atieno","awuor"],"m":["anyang","nyongo","ochieng","odhiambo","oduor","oloo","omondi","opiyo","onyango","otieno","othoo"]}],
+"ekegusii":[{"f":["banchiri","bochaberi","bosibori","bonareri","kwamboka","kemuma","kemunto","kerubo","mauya","mokeira","moige","moraa","mosomi","nyambori","nyanchama","nyanchera","nyansiaboka","nyaboke","nyabonyi","nyakerario","nyamoita","nyamokune","nyareso","nyasuguta","osebe"],
+"m":["abai","adisa","agwata","akoya","amenya","angwenyi","anyona","arika","arisi","asuga","ateka","bosire","charana","cherana","chumbegi","gesora","king'oina","kingoina","mogoko","mokamba","mokua","moseti","mosigisi","mosirwa","morara","masese","mageto","kaosa","mabeya","maobe","maosa","mauya","mogaka","mogoi","mogesi","moriasi","migosi","makori","mokaya","moigwa","mokembo","mosoti","mosomi","motari","ndubi","nyabuto","nyagechanga","nyaosi","nyambati","nyamokoba","nyachoti","nyakango","nyakwama","nyangaresi","obonyo","obutu","ogero","oirere","okinyi","omagwa","omara","omare","omariba","ombese","ombori","omwega","omwenga","onchwari","ondieki","onkeo","ontiri","osebe","otore","otwori","osiemo","nyabwanga","riose","sagero"]}]};
 
 var areaTally = {"county":["Mombasa","Kwale","Kilifi","Tana River","Lamu","Taita Taveta","Garissa","Wajir","Mandera","Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni","Nyandarua","Nyeri","Kirinyaga","Muranga","Kiambu","Turkana","West Pokot","Samburu","Trans Nzoia","Uasin Gishu","Elgeyo Marakwet","Nandi","Baringo","Laikipia","Nakuru","Narok","Kajiado","Kericho","Bomet","Kakamega","Vihiga","Bungoma","Busia","Siaya","Kisumu","Homa Bay","Migori","Kisii", "Nyamira","Nairobi"],"cultures_of":["kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","somali","borana","borana","borana","borana","meru","kikuyu","embu","akamba","akamba","akamba","akamba","kikuyu","kikuyu","kikuyu","kikuyu","kikuyu","turkana","ololuhyia","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","ololuhyia","ololuhyia","ololuhyia","ololuhyia","dhuluo","dholuo","dholuo",{"culture":["dholuo","kuria","suba"]},"gusii","ekegusii","kiswahili"],"products_of":["","","","","","","","","","","10","","","","","","embedodo","","waru","","","","","","","","","","","","","","","","","","","","","","","","","sweet potatoes & omena"],"item":["bananas","video content"],"item":["sukari-nguru",{"tea":["processed","leaves"]},"bricks","bananas","renovated charcoal","software"]};
 
@@ -152,6 +154,7 @@ function loadPlayGround(){
 
 	var area = document.getElementById("area");
 	if (area.value==areaTally.county[43] && culturalName == "moraa") {
+		var migori = ["Kuria East","Kuria West","Migori Town","Suba"];
 		if (spiritualorientation == character.trait[0] && mobility == character.mobility[0]){
 			alert(areaTally.products_of[43] + " also about " + areaTally.cultures_of[42].culture[2] + " | " + motto + " | " + "assign to omena collection business");
 		}
@@ -161,7 +164,6 @@ function loadPlayGround(){
 	} else {
 		prideandfall();
 	}
-			
 }
 		
 function somakanairos(){
