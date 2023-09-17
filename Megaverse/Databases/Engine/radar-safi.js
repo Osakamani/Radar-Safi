@@ -1,8 +1,9 @@
 //Glory to God
 //Celebrating the Life of Janes Moraa Nyaosi
 	//fielding global variables
+//var period = {"day","month","year","score","generation","particle-decay","half-life","menstrual-cycle":"1 month","germination":["maize":"6 months","beans":"3 months"]};
 var framework;
-var spiritualentity = ["love","desire","fear","duty","shame","prestige","posterity","other"];
+var spiritualentity = ["desire","love","fear","lust","duty","shame","prestige","posterity","other"];
 var purpose = "University Liaison";
 var university = ["maseno","masinde-muliro","nairobi","jomo-kenyatta","kenyatta","moi","multimedia","catholic","baraton"];
 var motto = "Connecting universities to pools of informal knowledge.";
@@ -19,14 +20,14 @@ function prideandfall(){
 var hospital = ["attitude engineering","chemical engineering","habit engineering","geographical engineering","other - to be specified"];
 var medicine = {"mwanyagetinge":["loving","exponential kindness","sharing","natural medicine","Chinese Medicine","helpful information","western medicine", "indian medicine","african medicine","corporate medicine","spiritual medicine","soul cultivation","redemption of lost souls"]};
 
-var userCareer = {"career": ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","University Liaison Officer","Transporter","Sponsor"], "page": ["Food Production","Future Project Manager","Future Software Development Roles","Supervised Programming Roles","Data Updates","Inspired Technician","Future Climate Support","Future Climate Support","Evaluating Applied Cosmological Computations","Training and Coordinating Artisans","Currency Production and Management","Supplier of Essential Products & Services","University Liaison",{"Transportation":"<h2>Goods to be Delivered</h2>"},"Financial Support"]};
+var userCareer = {"career": ["Organic Farmer","Development Student","Student Programmer","Programming Internship Student","Field Agent","Programmer","Geophysics Internship Student","Mining Internship Student","Geophysics Expert","Mining Expert","Finance Expert","Artisan (Jua-Kali or Informal-Sector Worker)","Liaison Officer","Transporter","Sponsor"], "page": ["Food Production","Future Project Manager","Future Software Development Roles","Supervised Programming Roles","Data Updates","Inspired Technician","Future Climate Support","Future Climate Support","Evaluating Applied Cosmological Computations","Training and Coordinating Artisans","Currency Production and Management","Supplier of Essential Products & Services","University, Industry and Government Liaison",{"Transportation":"<h2>Goods to be Delivered</h2>"},"Financial Support"]};
 
 var nameTally = {"nandi":[{"prefix":["che","chep","ki","kip"],"suffix":["bet","bor","chirchir","kemboi","keter","lagat","limo","kemboi","rop","rono","sang","tanui","too","tum"]}],
 
 "dholuo":[{"prefix":["","a","o","nya"],"suffix":["chieng","dhiambo","duor","kinyi","piyo","loo","mondi","nyang","nyango","nyongo","tieno","wuor","thoo"]}],
 
 "ekegusii":[{"f":["banchiri","bochaberi","bosibori","bonareri","kwamboka","kemuma","kemunto","kerubo","mauya","mokeira","moige","moraa","mosomi","nyambori","nyanchama","nyanchera","nyansiaboka","nyaboke","nyabonyi","nyakara","nyakerario","nyamoita","nyamokune","nyareso","nyasuguta","osebe"],
-"m":["abai","adisa","agwata","akoya","amenya","angwenyi","anyona","arika","arisi","asuga","ateka","bosire","charana","cherana","chumbegi","gesora","kaosa","king'oina","kingoina","masese","mageto","mabeya","makori","maobe","maosa","mauya","mbogo","migosi","mogoko","mogaka","mogesi","mogoi","moigwa","mokamba","mokaya","mokembo","mokua","moriasi","morara","moseti","mosigisi","mosirwa","mosoti","mosomi","motari","ndubi","nyabuto","nyagechanga","nyaosi","nyambati","nyamokoba","nyachoti","nyakango","nyakwama","nyangaresi","obonyo","obutu","ogero","oirere","okinyi","omagwa","omara","omare","omariba","ombese","omboga","ombori","omwega","omwenga","onchwari","ondieki","onkeo","ontiri","osebe","otore","otwori","osiemo","nyabwanga","riose","sagero","sindani"]}]};
+"m":["abai","adisa","agwata","akoya","amenya","angwenyi","anyona","arika","arisi","asuga","ateka","bosire","charana","cherana","chumbegi","gesora","kaosa","king'oina","kingoina","masese","mageto","mabeya","magara","makori","maobe","maosa","matara","mauya","mbogo","migosi","mogoko","mogaka","mogesi","mogoi","moigwa","mokamba","mokaya","mokembo","mokua","moriasi","morara","moseti","mosigisi","mosirwa","mosoti","mosomi","motari","ndubi","nyabuto","nyagechanga","nyaosi","nyambati","nyamokoba","nyachoti","nyakango","nyakwama","nyangaresi","obonyo","obutu","ogero","oirere","okinyi","omagwa","omara","omare","omariba","ombese","omboga","ombori","omwega","omwenga","onchwari","ondieki","onkeo","ontiri","osebe","otore","otwori","osiemo","nyabwanga","riose","sagero","sindani"]}]};
 
 var areaTally = {"county":["Mombasa","Kwale","Kilifi","Tana River","Lamu","Taita Taveta","Garissa","Wajir","Mandera","Marsabit","Isiolo","Meru","Tharaka Nithi","Embu","Kitui","Machakos","Makueni","Nyandarua","Nyeri","Kirinyaga","Muranga","Kiambu","Turkana","West Pokot","Samburu","Trans Nzoia","Uasin Gishu","Elgeyo Marakwet","Nandi","Baringo","Laikipia","Nakuru","Narok","Kajiado","Kericho","Bomet","Kakamega","Vihiga","Bungoma","Busia","Siaya","Kisumu","Homa Bay","Migori","Kisii", "Nyamira","Nairobi"],"cultures_of":["kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","kiswahili","somali","borana","borana","borana","borana","meru","kikuyu","embu","akamba","akamba","akamba","akamba","kikuyu","kikuyu","kikuyu","kikuyu","kikuyu","turkana","ololuhyia","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","kalenjin","ololuhyia","ololuhyia","ololuhyia","ololuhyia","dhuluo","dholuo","dholuo",{"culture":["dholuo","kuria","suba"]},"gusii","ekegusii","kiswahili"],"products_of":["","","","","","","","","","","10","","","","","","embedodo","","waru","","","","","","","","","","","","","","","","","","","","","","","","","sweet potatoes & omena"],"item":["bananas","video content"],"item":["sukari-nguru",{"tea":["processed","leaves"]},"bricks","bananas","renovated charcoal","software"]};
 
@@ -82,7 +83,10 @@ for(count = 0; count < userCareer.career.length; count++){
 	button[count] = "<input type='button' value = '" + userCareer.career[count] +"' id = '" + count + "' onclick = loadPage(id)><br>";
 	buttons = buttons + button[count];
 }
-
+//ACTIVE> streamlining for cultural-preference selection...
+var culturalPreference = nameTally.ekegusii;
+area = "Gusii";
+var chinsemo = {"bosamaro":["nyankanda","tinga"]};
 var unisex = "";
 var areaList = "";
 function culturalLogin() {
@@ -91,14 +95,16 @@ function culturalLogin() {
 	culturalName = document.getElementById("console").value;
 
 	var hits;
-	if (nameTally.ekegusii[0].f.length > nameTally.ekegusii[0].m.length){
-		hits = nameTally.ekegusii[0].f.length;
+	if (culturalPreference[0].f.length > culturalPreference[0].m.length){
+		//note: we have culturalPreference[0] and culturalPreference[1]
+		//within each culture as subcultures representing females and males respectively
+		hits = culturalPreference[0].f.length;
 	} else {
-		hits = nameTally.ekegusii[0].m.length;
+		hits = culturalPreference[0].m.length;
 	} //variable adjusted so as to alternate respectively
 
 	if (culturalName != "" && culturalName != null) {
-
+		//now beginning to declare places using native names
 		display = "User: <em>" + culturalName + "</em>, not logged into culture.<br>";
 
 		for (count3 = areaTally.county.length; count3 >= 0; count3--){
@@ -106,18 +112,18 @@ function culturalLogin() {
 		}
 
 		for (count = hits; count >= 0; count--){
-			if (culturalName == nameTally.ekegusii[0].f[count]){
+			if (culturalName == culturalPreference[0].f[count]){
 
 				//--enforce userculture i.e. connect culturalName to equivalent in database thereby initiating user-redirection trajectory. To be achieved by letting algorithm scan from a database of names for specifically indexed names
 
-				display = "Aye baaba <em>" + nameTally.ekegusii[0].f[count] + "</em>, nice to meet you.<br> Chagua area unadai kusoma: <select id='area'>" + areaList + "</select><input type='submit' value='submit' onclick='loadPlayGround()'><br>";
+				display = "Aye baaba <em>" + culturalPreference[0].f[count] + "</em>, nice to meet you.<br> Chagua area unadai kusoma: <select id='area'>" + areaList + "</select><input type='submit' value='submit' onclick='loadPlayGround()'><br>";
 				//to dump areaTally array into drop-down list here <br>";
 				unisex = "off";
 
 				//nested loop required here for when a name has been found in .f database, to tally with .m database for ascertaining that name is or is not unisex
 
 				for (count2 = hits; count2 >=0; count2--){
-					if (nameTally.ekegusii[0].f[count] == nameTally.ekegusii[0].m[count2]) {
+					if (culturalPreference[0].f[count] == culturalPreference[0].m[count2]) {
 
 						if (unisex == "off") {
 							unisex = "on"; //trap for labelling event as unisex when name is found in both m and f databases
@@ -127,8 +133,8 @@ function culturalLogin() {
 					}
 				}
 
-			} else if (culturalName == nameTally.ekegusii[0].m[count]){
-				display = "Aye sokoro <em>" + nameTally.ekegusii[0].m[count] + "</em>, komanyana nokuya. Chorango emeremo yao: <br>";
+			} else if (culturalName == culturalPreference[0].m[count]){
+				display = "Aye sokoro <em>" + culturalPreference[0].m[count] + "</em>, komanyana nokuya. Chorango emeremo yao: <br>";
 			}
 		}
 	} else {
